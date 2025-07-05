@@ -10,7 +10,7 @@ import {
   Platform,
 } from 'react-native';
 import { useTheme } from '../context/ThemeContext';
-import { v4 as uuidv4 } from 'uuid';
+import uuid from 'react-native-uuid';
 
 interface Task {
   id: string;
@@ -42,7 +42,7 @@ const TaskModal: React.FC<Props> = ({ visible, onClose, onSave, task }) => {
 
     const newTask: Task = task
       ? { ...task, title }
-      : { id: uuidv4(), title, completed: false };
+      : { id: uuid.v4().toString(), title, completed: false };
 
     onSave(newTask);
     setTitle('');
