@@ -130,7 +130,6 @@ npx expo start
 **Nuraj Shaminda**
 React Native & Full Stack Developer
 📧 [nurajshaminda200@gmail.com](mailto:nurajshaminda200@gmail.com)
-📱 +94 752730199
 
 ---
 
