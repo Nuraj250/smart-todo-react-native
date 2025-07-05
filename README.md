@@ -63,10 +63,10 @@ client/
 ### 1️⃣ Prerequisites
 
 - [Node.js](https://nodejs.org/) ≥ 16.x
-- [Expo CLI](https://docs.expo.dev/get-started/installation/) installed globally  
+- [Expo CLI](https://docs.expo.dev/get-started/installation/) installed globally
+- 
   ```bash
   npm install -g expo-cli
-````
 
 * Android/iOS phone with **Expo Go** app
 * OR Emulator (via Android Studio or Xcode)
