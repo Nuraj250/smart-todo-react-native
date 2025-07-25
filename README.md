@@ -3,7 +3,6 @@
 A beautifully designed cross-platform to-do list app built with **React Native + Expo**.  
 Features dark/light mode, smooth animations, offline persistence, and task editing.
 
-
 ---
 
 ## 🚀 Features
